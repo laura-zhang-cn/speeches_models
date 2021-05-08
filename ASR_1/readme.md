@@ -16,8 +16,10 @@
 读取一段话的音频，并对音频进行切割，获得有效的音频区间,  
 同时使用移动平均法拟合音频波形，  
 **切割和拟合效果：**  
-![切割时域音频1](https://github.com/laura-zhang-cn/speeches_models/blob/main/ASR_1/asr1images/img3_wavecut.png)  
+![切割时域音频1](https://github.com/laura-zhang-cn/speeches_models/blob/main/ASR_1/asr1images/img4_wavecut.png)  
+*双门法：文字位置识别前 ↓ * 
 ![文字位置拟合-拟合前](https://github.com/laura-zhang-cn/speeches_models/blob/main/ASR_1/asr1images/img2_word_cut2.png)  
+*双门法：文字位置识别后 ↓ * 
 ![文字文字拟合-拟合后](https://github.com/laura-zhang-cn/speeches_models/blob/main/ASR_1/asr1images/img2_word_cut3.png)  
 # 2)formant_feature  
 提取一个帧区间的共振峰特征  
