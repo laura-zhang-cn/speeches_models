@@ -86,7 +86,7 @@ if __name__=='__main__':
     # 2 音频特征化
     datas=[];
     K1=10**6
-    for sentencey in file_names[]:
+    for sentencey in file_names:
         #sentencey='你好，你好，你好，你好，你好，你好.wav' 
         speech_text=sentencey.split('.')[0] #话
         speech_text=re.sub(r'[^\u4e00-\u9fa5]','',speech_text)
