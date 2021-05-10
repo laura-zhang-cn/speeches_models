@@ -185,7 +185,7 @@ if __name__=='__main__':
         decoder_sentence=decode_seq(encoder_input_seq)
         return decoder_sentence
     
-    ## 模拟一份数据 
+    ## 模拟一份数据 （模拟数据不好用的，还是得重新生成，如果数据量足够，建议自己准备train-data 和 test-data）
     dictx=adad.generate_audio_dict(file_path) #建议数据集不变的情况下保存，因为耗时间。
     acc_num=0;NT=1000
     error_sample=[]
